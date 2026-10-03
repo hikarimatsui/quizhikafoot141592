@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QRクイズ 司会者画面</title>
+<link rel="stylesheet" href="style.css">
+<!-- 部品は lib フォルダを優先し、無い場合だけ外部から読み込みます -->
+<script src="lib/peerjs.min.js"></script>
+<script>window.Peer||document.write('<script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"><\/script>')</script>
+<script src="lib/qrcode.min.js"></script>
+<script>window.QRCode||document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"><\/script>')</script>
+</head>
+<body class="host">
+<div id="app"><div class="center-screen"><p>読み込み中…</p></div></div>
+<div id="toast" class="toast"></div>
+<script src="host.js"></script>
+</body>
+</html>

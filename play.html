@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="theme-color" content="#46178f">
+<title>QRクイズ 参加</title>
+<link rel="stylesheet" href="style.css">
+<!-- 部品は lib フォルダを優先し、無い場合だけ外部から読み込みます -->
+<script src="lib/peerjs.min.js"></script>
+<script>window.Peer||document.write('<script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"><\/script>')</script>
+</head>
+<body class="player">
+<div id="banner" class="banner"></div>
+<div id="app"><div class="p-wrap"><p>読み込み中…</p></div></div>
+<script src="player.js"></script>
+</body>
+</html>
